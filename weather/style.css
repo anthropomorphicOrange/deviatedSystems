@@ -59,7 +59,7 @@ heading {
     padding: 1px 1px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    border: none;
     border-radius: 5px;
     box-shadow: 6px 8px 10px rgba(0,0,0,.9);
     margin: 0px; 
