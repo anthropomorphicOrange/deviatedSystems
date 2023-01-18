@@ -2,7 +2,7 @@ body {
 
     margin: 0; 
    /* background: linear-gradient(to left bottom, darkblue, lightblue); */
-    background-image: url(sky.jpg);
+    background-image: url(images/sky.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ heading {
     top: 350px;
     height: 300px;
     width: 200px;
-    background-image: url("/images/USFlag.jpg");
+    background-image: url("images/USFlag.jpg");
     background-size: cover;
     padding: 1px 1px;
     display: flex;
@@ -53,7 +53,7 @@ heading {
     top: 350px;
     height: 300px;
     width: 200px;
-    background-image: url("/images/UnionJack.jpg");
+    background-image: url("images/UnionJack.jpg");
     background-size: cover;    
     padding: 1px 1px;
     display: flex;
