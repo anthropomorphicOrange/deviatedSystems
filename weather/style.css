@@ -1,72 +1,76 @@
 
-body {
+header {
 
-    margin: 0; 
-   /* background: linear-gradient(to left bottom, darkblue, lightblue); */
-    background-image: url(images/sky.jpg);
-    background-size: cover;
     display: flex;
     justify-content: center;
+    border: none;
     align-items: center;
-    min-height: 100vh;
-    font-family: 'Courier New', 'Courier', monospace;
-
-
-}
-
-
-heading {
-
     font-size: 1.5rem;
     color: #e3e39c;
     text-shadow: 4px 4px 8px rgba(0,0,0,.8);
-    position: absolute;
-    top: 100px;
-    left: 200px;
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 70px 0px;
 }
 
 
 
-.innerContainer {
 
-    position: absolute;
-    left: 300px; 
-    top: 350px;
-    height: 300px;
+
+.flexbox-container {
+    display: flex;
+    
+    
+    align-content: center;   
+    justify-content: center; 
+    align-items: center;
+    gap: 10px;
+}
+
+.flexbox-item {
+    height:300px;
     width: 200px;
-    background-image: url("images/USFlag.jpg");
+    margin: 10px;
+    border: 3px solid #333;
+    
+}
+
+.flexbox-item-1 {
+    
+    background-image: url("images/USFlag.jpg"); 
     background-size: cover;
-    padding: 1px 1px;
-    display: flex;
-    flex-direction: column;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 6px 8px 10px rgba(0,0,0,.9);
-    margin: 0px; 
-
-
-}
-
-.innerContainer2 {
-	
-    position: absolute;
-    left: 650px;
-    top: 350px;
     height: 300px;
     width: 200px;
-    background-image: url("images/UnionJack.jpg");
-    background-size: cover;    
-    padding: 1px 1px;
-    display: flex;
-    flex-direction: column;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 6px 8px 10px rgba(0,0,0,.9);
-    margin: 0px; 
-
-
+    margin: 0px 150px 0px 0px;
+   
 }
 
+.flexbox-item-2 {
+    height: 200px;
+    background-image: url("images/UnionJack.jpg"); 
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    
+}
+
+
+
+
+/* Background Styles */
+html {
+    height: 100%;
+    background-image: url(images/sky.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*
+.flexbox-container {
+    position: relative;
+    
+}
+*/
 #headingUS {
 
     font-size: 2.5rem;
@@ -88,14 +92,16 @@ heading {
 
 .input {
 
-    padding: 0px 0px;
+    width: 75px;    
+    height: 20px;
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Courier New', 'Courier', monospace;
     background: rgba(255,255,255, .4);
     border-color: rgba(255,255,255, .5);
-    margin: 0px;
-    padding: 0;
+    margin: 5px 10px;
+    border-radius: 5px;
+    
 }
 
 .btn {
@@ -123,9 +129,11 @@ heading {
     font-weight: 500;
 }
 
+
 .tempHeading {
 
     font-size: 1.4rem;
     color: #e3e39c;
     text-shadow: 2px 2px black;
-    
+
+}

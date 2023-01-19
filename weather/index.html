@@ -7,34 +7,41 @@
     <title>Weather Report</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+    <body>
+        <header>
+            <div><span><h1>US and UK Weather Comparison</h1></span></div>
+        </header>
+ 
+    <div class="flexbox-container">
+      
+        <div class="flexbox-item flexbox-item-1">
 
-<heading>
-    <h1>US and UK Weather Comparison</h1>
-</heading>
+            <h1 id="headingUS">New York </h1>
+            <h3 class="tempHeading">High Temp (F):</h3>
+            <input type="number" class="input" id="highTempUS" value="51">
+            
+            <h3 class="tempHeading">Low Temp (F):</h3>
+            
+            <input type="number" class="input" id="lowTempUS" value="40">  
 
-<div class="innerContainer">
 
-    <h1 id="headingUS">New York </h1>
-    <h3 class="tempHeading">High Temp (F):</h3>
-    <input type="number" class="input" id="highTempUS" value="51">
+        </div>
+        <div class="flexbox-item flexbox-item-2">
+
+            <h1 id="headingUK">London </h1>
+            <h3 class="tempHeading">High Temp (F):</h2>
+            <input type="number" class="input" id="highTempUK" value="41">
     
-    <h3 class="tempHeading">Low Temp (F):</h3>
-    
-    <input type="number" class="input" id="lowTempUS" value="40">       
+            <h3 class="tempHeading">Low Temp (F):</h3> 
+            <input type="number" class="input" id="lowTempUK" value="31">
 
-</div>
+        
 
-<div class="innerContainer2">
 
-    <h1 id="headingUK">London </h1>
-    <h3 class="tempHeading">High Temp (F):</h2>
-    <input type="number" class="input" id="highTempUK" value="41">
-    
-    <h3 class="tempHeading">Low Temp (F):</h3> 
-    <input type="number" class="input" id="lowTempUK" value="31">
-   
-</div>
+
+        </div>
+        
+    </div> 
 
 </body>
 </html>
