@@ -3,7 +3,16 @@
     
     display:flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+
+    
+}
+
+.buffer1 {
+    
+    height: 189px;
+    width: 200px;
+    background-color: orange;
     
 }
 
@@ -18,6 +27,18 @@
     text-shadow: 4px 4px 8px rgba(0,0,0,.8);
     margin: 0px 0px 20px 0px;
     padding: 0px 0px 70px 0px;
+    flex-shrink: 20;
+    background-color: pink;
+    flex-shrink: 3;
+
+}
+
+.buffer2 {
+     
+    height: 189px;
+    width: 200px;
+    background-color: red;
+    
 }
 
 
@@ -48,7 +69,8 @@
     background-size: cover;
     height: 300px;
     width: 200px;
-    margin: 0px 150px 0px 0px;
+    
+    
    
 }
 
