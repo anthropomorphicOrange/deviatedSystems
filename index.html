@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  
+    <link rel="stylesheet" href="styles.css">  
+</head>
+<body class="text-gray-600 font-body bg-gray-400 lg:bg-gradient-to-r from-sky-200 to-sky-700">
+
+    <div class="grid md:grid-cols-3"> <!-- content wrapper -->     
+       <div class="md:col-span-1" >        
+        <nav>
+          <div class="bg-gray-400 grid-cols-3 border-b-2 border-gray-800 lg:bg-gradient-to-r from-yellow-200 to-orange-700">
+             <h1 class="font-bold uppercase py-4 [text-shadow:_0_1px_0_rgb(0_0_0_/_90%)]">
+                <a href="/" class="text-yellow-500 sm:text-red-500 lg:text-sky-500 text-4xl ">Weather Report</a>
+             </h1>
+          </div>
+            <ul class="lg:text-pink-600 lg:text-2xl  [text-shadow:_0_1px_0_rgb(0_0_0_/_90%)]  sm:text-black sm:text-sm">
+                <li class= "font-bold py-4">
+                 <a href="#">
+                    <span >New York</span>
+                 </a>
+                </li>
+                <li class= "font-bold py-4">
+                 <a href="#">
+                    <span >London</span>
+                 </a>
+                </li>
+                <li class= "font-bold py-4">
+                 <a href="#">
+                    <span>Toyko</span>
+                 </a>
+                </li>
+            </ul>
+        </nav>
+       </div> <!-- end nav --> 
+       
+          <main class="px-16 py-6 bg-gray-400 lg:bg-gradient-to-r from-yellow-200 to-orange-700 md:col-span-2 lg:row-span-4 border-l-2 border-b-2 rounded-b-xl border-red-200">
+            <div class="flex jusify-center md:justify-end">
+                              
+            </div>
+
+            
+           
+            <header>
+                <h2 class="lg:text-sky-500 text-4xl [text-shadow:_0_1px_0_rgb(0_0_0_/_90%)]"> New York, London, and Toyko</h2>
+                <h3 class="lg:text-sky-500 text-2xl [text-shadow:_0_1px_0_rgb(0_0_0_/_90%)]">Highs and Lows</h3>
+            
+            </header>
+            <div>
+                <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Today's Temps</h4>
+
+                <div class="mt-8 grid lg:grid-cols-3 gap-9">
+                    <!-- cards go here -->
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1581320462333-5dd0c1eb4ce1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=800" alt="London" class="rounded" class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <h3 class="mt-4 text-xl font-bold dark:text-white">New York, USA</h3>
+                            
+                            
+                        </div>
+                        <div class="badge">
+                            <span>High 45 /</span> <span>Low 34</span> 
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" alt="New York" class="rounded" class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <h3 class="mt-4 text-xl font-bold dark:text-white">London, UK</h3>
+                            <h3 class="mb-4 text-sm  dark:text-white opacity-50">London, UK, GB</h3>
+                        </div>
+                        <div class="badge">
+                            <span>High 45 /</span> <span>Low 37</span> 
+                            
+                        </div>
+                    </div>
+                    <div class="card">
+                         <img src="https://images.unsplash.com/photo-1564050664596-0d5fbdb8f7c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1438&q=80" alt="Tokyo" class="rounded" class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                        
+                            <h3 class="mt-4 text-xl font-bold dark:text-white">Tokyo, JP</h3>
+                        
+                        </div>
+                        <div class="badge">
+                            <span>High 43 /</span> <span>Low 36</span> 
+                        </div>
+                    </div>
+                </div>
+                <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Most Popular</h4>
+                <div class="mt-8">
+                     <!-- cards go here -->
+                </div >
+                <div class="flex justify-center">
+                    <div class="bg-secondary-100 text-secondary-200 rounded-md">Load More</div>
+                </div>
+            </div>
+
+
+
+          </main>
+    </div>
+       
+    
+</body>
+</html>
