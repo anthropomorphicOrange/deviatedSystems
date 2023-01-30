@@ -1,53 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Report</title>
-    <link rel="stylesheet" href="style.css">
+<title> Test Page </title>
+<link rel="stylesheet" href="styles.css">
 </head>
-   <body>
-      <header>
-       
-        <div class="header-container">
-            <div class="buffer1"></div>
-            <div class="title"><h1 class="title">US and UK Weather Comparison</h1></div>
-            <div class="buffer2">  </div>
-        </div>
-       
-      </header>
- 
-    <div class="flexbox-container">
-      
-        <div class="flexbox-item flexbox-item-1">
+<body>
+<!--
+<h1> Grid Elements</h1>
+<p> A grid layout must have a parent element with the <em>display</em> property set
+to <em> grid </em> or <em> inline-grid</em>.</p>
 
-            <h1 id="headingUS">New York </h1>
-            <h3 class="tempHeading">High Temp (F):</h3>
-            <input type="number" class="input" id="highTempUS" value="40">
+-->
+
+<div class="grid-container">
+   <div class="item1"><!--1 --><h1>Weather Report Across the Globe<h1></div>  
+   <div class="item2"><!--2 --></div>  
+   <div class="item3">
+	<div class="flex-container">
+              
+
+	      <div class="child1-container">	
+		<div class="child1">
+
+                     <img src="https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" alt="New York" width="300" height="200">
+                     
+		</div>
+             <!-- <p class="city">London </p> -->
+              <p class="temp"> High: 52 &nbsp; Low: 38</p>
+              <div class="textInfo">
+                     <br><br>
+                     <p class="city">New York, US </p> <br>
+                     
+                     The climate of New York is continental, with cold winters and hot summers.
+                     The city is located in the eastern United States, at almost 41 degrees north latitude, on the edge of a continent that cools down in winter and heats up in summer, and where different air masses collide: the cold ones coming from Canada and the warm ones coming from the Gulf of Mexico. 
+                     In the Central Park Weather Station, the daily average temperature ranges from 0.8 °C (33.4 °F) in January to 25.3 °C (77.5 °F) in July. Here are the average temperatures. 
+                     
+              </div>
+              
+             
+              </div>
+
+
+	       <div class="child2-container">
+		<div class="child2">
+              
+                     <img src="https://images.unsplash.com/photo-1581320462333-5dd0c1eb4ce1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=800" alt="London" width="300" height="200">
+	       
+		</div> 
+              
+              <p> High: 48 &nbsp; Low: 37</p>  
+              <div class="textInfo">
+                     <br><br>
+                     <p class="city">London, UK </p> <br>
+                     
+                     
+                     
+                     In London, the capital of Great Britain, the climate is influenced by the ocean and is therefore cool, humid and rainy. Atlantic fronts pass one after the other throughout the year, and bring variable weather, with cloudiness, rains and showers, which alternate, at least in spring and summer, with a few hours of sunshine.                     
+                     
+                     At Heathrow Airport, located on the western outskirts of the city, the average temperature ranges from 5.6 °C (42 °F) in January to 19 °C (66.2 °F) in July. Here are the average temperatures.
+                     
+              </div>        
+	       </div>
+
             
-            <h3 class="tempHeading">Low Temp (F):</h3>
-            
-            <input type="number" class="input" id="lowTempUS" value="34">  
+	       <div class="child3-container">
+		<div class="child3">     
+             
+              <img src="https://images.unsplash.com/photo-1622182438074-b163bdf8f16c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=681&q=80" alt="Tokyo" width="300" height="200">
+	         </div>
+                
+                <p> High: 45 &nbsp; Low: 35</p>
 
+                <div class="textInfo">
+                     <br><br>
+                     <p class="city">Berlin, DE </p> <br>
+                     
+                   
+                     In Berlin, the climate is moderately continental, characterized by cold winters, with average temperatures around freezing (0 °C or 32 °F), and moderately warm summers, with daytime temperatures hovering around 25 °C (77 °F).
+                     The city is the capital of Germany and is located in the north-east of the country, at 52 degrees north latitude.
+                     The city is exposed to both cold and warm air masses, so both the weather and the temperature are highly variable.
+                     
+                     
+                     
+              </div>
 
-        </div>
-        <div class="flexbox-item flexbox-item-2">
+               </div>
+            <!--
+	      <div class="child4-container">
+		<div class="child4">     
+             
+              <img src="https://images.unsplash.com/photo-1564050664596-0d5fbdb8f7c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1438&q=80" alt="Tokyo" width="300" height="200">
+	         </div>
+                <p class="city">Japan </p> 
+              <p> High: 48 &nbsp; Low: 37</p>
 
-            <h1 id="headingUK">London </h1>
-            <h3 class="tempHeading">High Temp (F):</h2>
-            <input type="number" class="input" id="highTempUK" value="40">
-    
-            <h3 class="tempHeading">Low Temp (F):</h3> 
-            <input type="number" class="input" id="lowTempUK" value="31">
-
-        
-
-
-
-        </div>
-        
-    </div> 
+              <div class="textInfo">
+                     <br>
+                     In Tokyo, the Japanese capital, the climate is temperate, with fairly mild, sunny winters and hot, humid and rainy summers. Like the rest of Japan, the city is affected by the monsoon circulation: in winter, the northwest cold currents will prevail, while in summer, they will be replaced by hot and humid currents of tropical origin.
+                     
+                     Given the relatively low latitude (we are on the 35th parallel) and the protection given by the mountains (we are on the east side), in winter, the currents of Siberian origin are felt little, so there's a good number of sunny days, and it's usually not very cold.
+                     In the postwar period, Tokyo's coldest record is -6 °C (21 °F), set in January 1954.
+                     In any case, night frosts are rare and usually light.
+                     
+              </div>
+       -->
+               </div>
+              
+               
+               
+	</div>
+   </div>
+   <div class="item4"><!--4 --></div>
+   <div class="item5"><!--5 --></div>
+   <div class="item6"><!--6 --></div>  
+   <div class="item7"><!--7 --></div>  
+   <div class="item8"><!--8 --></div>
+   <div class="item9"><!--9 --></div>
+  
+</div>
 
 </body>
 </html>
